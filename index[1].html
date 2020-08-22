@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web building</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<style>
+    .container {
+        position: relative;
+    }
+
+
+    .text-block {
+        
+        font-weight:700;
+        font-style: bold;
+        text-align: center;
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        background-color: green;
+        color: white;
+        padding-left: auto;
+        padding-right: auto;
+        border-top:14px solid green ;
+        border-bottom: 10px solid green;
+        border-left: 15px solid green;
+        border-right: 15px solid green;
+    
+        
+        
+        }
+
+
+    /* Ne znam zasto ne radi na 992px, radi ali ne izgleda fino tako da sam stavio na 1004px */
+    @media (max-width: 1004px) {
+        .navbar {
+            justify-content: space-between;
+            visibility: hidden;
+        }
+        
+
+
+    }
+
+    #website {
+        align-items: start;
+
+    }
+
+
+    @media (min-width: 1004px) {
+        .topnav {
+            right: 2px;
+            top: 1px;
+            padding-top: 10px;
+            display: none;
+
+            position: relative;
+        }
+       
+
+    }
+
+    .topnav {
+        float: right;
+        font-weight: 900;
+        font-size: x-large;
+
+    }
+</style>
+
+<div class="topnav">
+    <img src="./imgs/menu.png" alt="menu">
+    Menu
+
+
+
+</div>
+
+<div class="row text-center ">
+    <h1 id="website" class=" col-lg-4 col-sm-6 text-muted">My Website</h1>
+    <div class="navbar">
+        <h4 class="col-lg-1 "> <small>Home</small></h4>
+        <h4 class=" col-lg-2 text-muted"><small>Portofolio</small></h4>
+        <h4 class=" col-lg-1 text-muted"><small>Staff</small></h4>
+        <h4 class=" col-lg-1 text-muted"><small>Features</small></h4>
+        <h4 class="col-lg-1 text-muted"><small>Blog</small></h4>
+        <h4 class=" col-lg-1 text-muted"><small>Contact</small></h4>
+        <h4 class=" col-lg-1 text-muted"><small>Download</small></h4>
+    </div>
+
+
+
+</div>
+<div>
+
+</div>
+</div>
+
+</br>
+</br>
+
+<div class="container">
+    <img src="./imgs/hero.jpg" alt="hero" style="width:100%;">
+    <div class="text-block">
+
+        <p>We strive to make all of our creation exqusite</p>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-3">
+            <div class="thumbnail pt-sm-5 pt-md-5 pt-lg-5">
+                <img src="imgs/icon-1.png" alt="" class=" d-block mx-auto">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3 pb-sm-3 pb-md-3 pb-lg-3">
+                    <h5 class="text-center"> Purpose </h5>
+                    <p class="text-center"> <small class="text-muted">
+                            Vestibulum sapien nisi, suscipit vitae euismod
+                            vitae, imperdiet eget est. Etiam tincidunt tempus.
+                        </small></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-12 col-lg-3">
+            <div class="thumbnail pt-lg-5">
+                <img src="imgs/icon-2.png" alt="" class=" d-block mx-auto">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3">
+                    <h5 class="text-center"> Quality </h5>
+                    <p class="text-center"> <small class="text-muted">
+                            Nam commodo risus pharetra magna egestas, nec
+                            iaculis augue lobortis. Proin eleifend enim quis.
+                        </small></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-12 col-lg-3">
+            <div class="thumbnail pt-lg-5">
+                <img src="imgs/icon-3.png" alt="" class=" d-block mx-auto">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3">
+                    <h5 class="text-center"> Function </h5>
+                    <p class="text-center"> <small class="text-muted">
+                            Aenean et tellus id nisi vehicula fringilla. In
+                            condimentum dui eu turpis mollis turpis suscipit.
+                        </small></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-sm-12 col-md-12 col-lg-3">
+            <div class="thumbnail pt-lg-5">
+                <img src="imgs/icon-4.png" alt="" class=" d-block mx-auto">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3 pb-sm-3 pb-md-3 pb-lg-3">
+                    <h5 class="text-center"> Elegant </h5>
+                    <p class="text-center"> <small class="text-muted">
+                            Mauris accumsam magna in placerat lacinia. Proin
+                            sit amet neque vitae nunc pulvinar varius.
+                        </small></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="col">
+            RECENT WORK
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="thumbnail">
+                <img class="img-fluid" src="imgs/bike-400x340.jpg" alt="">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3 pb-sm-3 pb-md-3 pb-lg-3">
+                    <h6> <strong> Geen Bike </strong>
+                        <br><small class="text-muted">
+                            Beautiful, Travel </small></h6>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="thumbnail">
+                <img class="img-fluid" src="imgs/surf-400x340.jpg" alt="">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3">
+                    <h6> <strong> Salt Of The Earth </strong>
+                        <br> <small class="text-muted">
+                            Beautiful, Travel </small></h6>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="thumbnail">
+                <img class="img-fluid" src="imgs/hills-400x340.jpg" alt="">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3">
+                    <h6> <strong> Mountain High </strong>
+                        <br> <small class="text-muted">
+                            Travel </small></h6>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="thumbnail">
+                <img class="img-fluid" src="imgs/path-400x340.jpg" alt="">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3 pb-sm-3 pb-md-3 pb-lg-3">
+                    <h6> <strong> When A Tree Falls </strong>
+                        <br> <small class="text-muted">
+                            Beautiful </small></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+            FROM THE BLOG
+        </div>
+    </div>
+
+
+
+    <div class="row">
+
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="thumbnail">
+                <img class="img-fluid" src="imgs/cow-640x340.jpg" alt="">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3 pb-sm-3 pb-md-3 pb-lg-3">
+                    <h6> <strong> How Now </strong> <br>
+                        <small class="text-muted"> Posted on October 28, 2020 </small> </h6>
+                    <p class="text-center"> <small class="text-muted">
+                            Proin et ligula laoreet, vestibulum orci nec, eleifend purus.
+                            Quisque ullamcorper sem at ipsum elementum laoreet. Integer egestas..
+                            Proin et ligula laoreet, vestibulum orci nec, eleifend purus.
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="thumbnail">
+                <img class="img-fluid" src="imgs/sunrise-640x340.jpg" alt="">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3">
+                    <h6> <strong> Adrift by Simon Christen </strong> <br>
+                        <small class="text-muted"> Posted on September 29, 2020 </small> </h6>
+                    <p> <small class="text-muted">
+                            Morbi vulputate egestas sem, eu cursus ligula ullamcorper non.
+                            Curabitur tristique velit eu mauris venenatis egestas.
+                            Phasellus bibendum..
+                        </small></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="thumbnail">
+                <img class="img-fluid" src="imgs/grass-640x340.jpg" alt="">
+                <div class="caption pt-sm-3 pt-md-3 pt-lg-3 pb-sm-3 pb-md-3 pb-lg-3">
+                    <h6> <strong> A Walk in The Park </strong> <br>
+                        <small class="text-muted"> Posted on August 10, 2020 </small> </h6>
+                    <p> <small class="text-muted">
+                            Proin elementum pharetra mauris sed semper. Cras lorem arcu,
+                            vulputate ut malesuada ut, tincidunt tempor lectus. Etiam adipiscing...
+                        </small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="p-3 mb-2 bg-secondary text-white">
+    <div class="container pozadina1">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <h6 class="text-bold mb-3 pt-sm-5 pt-md-5 pt-lg-5"> My Website </h6>
+                <p class="p-3 mb-2 bg-secondary text-white"> Quisque id dolor leo. Vivamus tincidunt in diam ac
+                    condimentum. Quisque rutrum dolor dolor,
+                    non tincidunt tellus sollicitudin vitae. Mauris a dolor ut nibh volutpat aliquam. Sed dictum magna
+                    eu massa accumsan,
+                    sit amet viverra ligula gravida. Nam vehicula ut leo aliquet sodales. </p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 .bg-secondary">
+                <h6 class="text-light mb-3 pt-sm-5 pt-md-5 pt-lg-5">Recent Posts</h6>
+                <table class=" p-3 mb-2 bg-secondary text-white">
+                    <tr>
+                        <td>Now Now</td>
+                    </tr>
+                    <tr>
+                        <td>Adrift by Simon Christen </td>
+                    </tr>
+                    <tr>
+                        <td>A Walk In The Park </td>
+                    </tr>
+                    <tr>
+                        <td>Time To Think </td>
+                    </tr>
+                    <tr>
+                        <td>Field Of Dreams </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="">
+                <div class="col-sm-12 col-md-12 col-lg-4>
+                     <table class=" table table-sm text-light">
+                    <h6 class="text-bold mb-3 pt-sm-5 pt-md-5 pt-lg-5">Recent Posts</h6>
+                    <table class="p-3 mb-2 bg-secondary text-white">
+                        <tr>
+                            <td>Beautiful</td>
+                        </tr>
+                        <tr>
+                            <td>Travel </td>
+                        </tr>
+                        <tr>
+                            <td>Surreal </td>
+                        </tr>
+                        <tr>
+                            <td>Thoughts </td>
+                        </tr>
+                        <tr>
+                            <td>Unique </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"
+        style="width: 100wh; height: 50px; background-color: black; text-align: center; font-style: oblique; color: grey;">
+        @2020 ITAcademy</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"> </script>
+</body>
+
+</html>
